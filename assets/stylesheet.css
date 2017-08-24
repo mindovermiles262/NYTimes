@@ -1,0 +1,107 @@
+/*--- GENERAL STYLING ---*/
+.left {
+  float: left;
+  text-align: left;
+}
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+.right {
+  float: right;
+  text-align: right;
+}
+.border {
+  border: 1px solid black;
+}
+
+
+/*--- DIVS ---*/
+.container {
+  padding: 0 20px;
+}
+.main {
+  padding: 0 20%;
+}
+
+
+/*--- NAVBAR ---*/
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+}
+.nav {
+  width: 33%;
+  display: inline-block;
+}
+.nav li {
+  display: inline-block;
+  list-style: none;
+  padding-right: 20px;
+}
+
+
+/*---  COLLECTION MENU ---*/
+.collection-menu {
+  margin-top: 50px;
+  text-align: center;
+  border: 1px solid black;
+  height: 82px;
+}
+.collection-menu li {
+  display: inline-block;
+  list-style: none;
+  width: 19.5%;
+  padding-top: 28px;
+}
+
+
+/*--- ARTICLE HEADER ---*/
+.social-media-buttons {
+  display: inline-block;
+  list-style: none;
+  float: right;
+  width: 45%;
+}
+.social-media-buttons li {
+  display: inline-block;
+  margin: 16px 0;
+}
+.story-meta {
+  display: block;
+  width: 100%;
+}
+.author {
+  width: 45%;
+}
+
+
+/*--- ARTICLE ---*/
+.story {
+  display: inline-block;
+  padding: 0 5%;
+}
+.story-img {
+  width: 100%;
+  margin: 0;
+}
+.story-img img {
+  width: 100%;
+  max-width: 100%;
+}
+.article-left {
+  display: inline-block;
+  float: left;
+  width: 55%;
+  padding: 0 0 0 10%;
+}
+.article-right {
+  display: inline-block;
+  float: right;
+  width: 25%;
+  text-align: center;
+  padding: 0 5%;
+}
