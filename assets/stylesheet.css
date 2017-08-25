@@ -1,4 +1,7 @@
 /*--- GENERAL STYLING ---*/
+body {
+
+}
 .left {
   float: left;
   text-align: left;
@@ -32,6 +35,7 @@ nav {
   left: 0;
   height: 50px;
   width: 100%;
+  min-width: 840px;
 }
 .nav {
   width: 33%;
@@ -50,6 +54,7 @@ nav {
   text-align: center;
   border: 1px solid black;
   height: 82px;
+  min-width: 715px;
 }
 .collection-menu li {
   display: inline-block;
@@ -104,4 +109,39 @@ nav {
   width: 25%;
   text-align: center;
   padding: 0 5%;
+}
+.video {
+  width: 100%;
+  height: 360px;
+  border: 1px solid red;
+}
+
+
+/*--- INFOGRAPH ---*/
+.infograph {
+  height: 700px;
+}
+.infograph-content {
+  width: 100%
+}
+.infograph-content > img {
+  width: 100%;
+}
+.infograph > .row1 {
+  position: relative;
+  top: -435px;
+}
+.infograph > .row2 {
+  position: relative;
+  top: -320px;
+}
+.infograph > .row3 {
+  position: relative;
+  top: -300px;
+}
+.ig-col {
+  display: inline-block;
+  width:24%;
+  vertical-align: top;
+  font-size: 14px;
 }
